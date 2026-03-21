@@ -1,0 +1,12 @@
+# Copyrighted game data
+*.wad
+*.WAD
+
+# Build artifacts
+*.zip
+managed-doom/publish-out/
+
+# General
+*.user
+.DS_Store
+.claude
