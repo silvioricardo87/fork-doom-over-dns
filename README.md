@@ -10,6 +10,8 @@ This project compresses the entirety of shareware DOOM, splits it into ~1,964 DN
 
 It was always DNS.
 
+Read the full article [here](https://blog.rice.is/post/doom-over-dns/).
+
 ---
 
 # Quick Start
