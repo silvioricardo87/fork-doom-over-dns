@@ -16,17 +16,15 @@ Read the full article [here](https://blog.rice.is/post/doom-over-dns/).
 
 # Quick Start
 
-## Play
+## Pre-Requisites
 
-```powershell
-# 1. Install PowerShell 7 (if you don't have it)
-winget install Microsoft.PowerShell
+Windows 10/11 Installation with OpenGL graphics. **_MacOS is not supported._**
+If using a VM without OpenGL passthrough, use [mesa-dist-win](https://github.com/pal1000/mesa-dist-win).
 
-# 2. Play DOOM
-.\Start-DoomOverDNS.ps1 -PrimaryZone 'example.com'
 ```
-
-That's it. Everything else is fetched from DNS automatically using `Resolve-DNSName`.
+# Install PowerShell 7 (if you don't have it)
+winget install --id Microsoft.PowerShell --source winget
+```
 
 ## Upload
 
@@ -45,6 +43,14 @@ Set-CFCredential -ApiToken (Read-Host 'API Token' -AsSecureString)
     -WadPath    'DOOM1.WAD' `
     -Zones      @('example.com')
 ```
+
+## Play
+
+```powershell
+.\Start-DoomOverDNS.ps1 -PrimaryZone 'example.com'
+```
+
+That's it. Everything else is fetched from DNS automatically using `Resolve-DNSName`.
 
 ---
 
