@@ -19,6 +19,7 @@ Read the full article [here](https://blog.rice.is/post/doom-over-dns/).
 ## Pre-Requisites
 
 Windows 10/11 Installation with OpenGL graphics. **_MacOS is not supported._**
+
 If using a VM without OpenGL passthrough, use [mesa-dist-win](https://github.com/pal1000/mesa-dist-win).
 
 ```
